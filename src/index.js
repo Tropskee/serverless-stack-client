@@ -7,6 +7,10 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Amplify } from "aws-amplify";
 import config from "./config";
 
+// Initialize AWS Amplify
+// Auth = Cognito
+// Storage = S3
+// API = API Gateway
 Amplify.configure({
   Auth: {
     mandatorySignIn: true,
